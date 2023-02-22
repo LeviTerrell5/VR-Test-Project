@@ -236,25 +236,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb50a780d14d70e41b6d13deac270099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dirtLayerHeight: 5
-  grass: {fileID: 996248229, guid: 50203c20860da224cb6ce81b38698f02, type: 3}
-  dirt: {fileID: 2075228388, guid: 50203c20860da224cb6ce81b38698f02, type: 3}
-  stone: {fileID: 1419911694, guid: 50203c20860da224cb6ce81b38698f02, type: 3}
-  pineLog: {fileID: 1658401632, guid: 50203c20860da224cb6ce81b38698f02, type: 3}
-  pineLeaf: {fileID: -1005102943, guid: 50203c20860da224cb6ce81b38698f02, type: 3}
+  tileAtlas: {fileID: 11400000, guid: 24f564ee5f41a7f4682457beaa3aa855, type: 2}
   treeChance: 15
   minTreeHeight: 3
   maxTreeHeight: 6
+  dirtLayerHeight: 5
+  chunkSize: 20
+  worldSize: 100
   generateCaves: 1
   surfaceValue: 0.25
-  worldSize: 100
-  caveFreq: 0.06
-  terrainFreq: 0.04
   heightMultiplier: 25
   heightAddition: 25
+  caveFreq: 0.06
+  terrainFreq: 0.04
   seed: 0
   noiseTexture: {fileID: 0}
-  worldTiles: []
 --- !u!4 &1899746422
 Transform:
   m_ObjectHideFlags: 0
